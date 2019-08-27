@@ -11,7 +11,7 @@ terraform {
 //        iam        //
 ///////////////////////
 module "iam" {
-  source = "git::https:/github.com/thanhbn87/terragrunt-aws-iam-role-elasticbeanstalk.git?ref=tags/0.1.0"
+  source = "git::https:/github.com/thanhbn87/terraform-aws-iam-role-elasticbeanstalk.git?ref=tags/0.1.0"
 
   name        = "${var.name}"
   namespace   = "${var.namespace}"
