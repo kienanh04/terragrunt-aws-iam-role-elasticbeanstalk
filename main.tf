@@ -19,6 +19,7 @@ module "iam" {
   project_env_short = "${var.project_env_short}"
 
   temp_file_assumerole       = "${var.temp_file_assumerole}"
+  temp_file_policy           = "${var.temp_file_policy}"
   iam_instance_profile       = "${var.iam_instance_profile}"
   service_name               = "${var.service_name}"
   enhanced_reporting_enabled = "${var.enhanced_reporting_enabled}"
