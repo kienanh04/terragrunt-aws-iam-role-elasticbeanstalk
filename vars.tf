@@ -15,6 +15,7 @@ variable "service_name" { default = "" }
 variable "enhanced_reporting_enabled" { default = true }
 variable "ssm_enabled" { default = true }
 variable "ssm_registration_limit" { default = 1 }
+variable "policy_resources" { default = ["*"] }
 
 variable tags {
   default = {}
